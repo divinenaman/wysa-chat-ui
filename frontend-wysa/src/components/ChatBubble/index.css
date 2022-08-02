@@ -1,0 +1,17 @@
+.chat_bubble {
+  display: inline-flex;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 220px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.chat_bubble[data-variant="secondry-left"] {
+  border-radius: 20px;
+  border-top-left-radius: 0;
+}
+
+.chat_bubble[data-variant="secondry-right"] {
+  border-radius: 20px;
+  border-top-right-radius: 0;
+}

@@ -1,0 +1,33 @@
+.chatroom {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr 80px;
+}
+
+.chatroom .header {
+  grid-row: 1/2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatroom .chat_text {
+  grid-row: 2/3;
+  height: 100%;
+  margin: 20px 20%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.chatroom .chat_input {
+  grid-row: 3/4;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

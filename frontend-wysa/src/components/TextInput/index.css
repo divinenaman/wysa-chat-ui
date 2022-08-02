@@ -1,0 +1,8 @@
+.text_input {
+    width: min(60vw, 400px);
+    outline: none;
+    border: none;
+    height: 24px;
+    border-radius: 8px;
+    padding: 10px;
+}
