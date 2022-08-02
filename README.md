@@ -14,7 +14,7 @@ Note: change directory to 'Backend'
 
 ```
 
-2. npm install
+1. npm install
 
 2. npm run start
 
@@ -34,7 +34,7 @@ Note: change directory to 'frontend-wysa'
 ```
 
 ### Frontend server running on port: 5173
-### Go to [localhost:5173](localhost:5173/)
+### Go to [localhost:5173](http://localhost:5173/)
 
 ## Screenshots
 
