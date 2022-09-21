@@ -1,4 +1,4 @@
-# WYSA HIRING CHALLENGE
+# Boilerplate Chat UI
 
 ## Login Creds
 
